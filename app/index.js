@@ -34,8 +34,7 @@ async function fetchUsersAndCompanies() {
     
 
     const sortedCompaniesArray = companiesArray.sort((a, b) => {
-      // return a.numberOfUsers - b.numberOfUsers;
-      return b.numberOfUsers - a.numberOfUsers;
+      return a.numberOfUsers - b.numberOfUsers;
 
     })
 
